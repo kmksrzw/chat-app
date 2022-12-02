@@ -55,16 +55,99 @@
 .chat-header {
   height: 100px;
   padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-name {
+  padding-top: 36px;
+  font-size:  24px;
+  color: #333;
+}
+
+.menu-exit {
+  margin-top: 40px;
+}
+.menu-exit a {
+  border: solid 1px darkred;
+  padding: 20px;
+  color: darkred;
+  text-decoration: none;
+
 }
 
 .messages {
  background-color: #fafafa;
  height: calc(100vh - 100px - 90px);
  padding: 46px 40px 0;
+ overflow: scroll;
+}
 
+.message {
+  margin-bottom: 40px;
+}
+
+.massage-line1 {
+ display: flex;
+ padding: 10px 0;
+}
+
+.massage-name {
+  font-size: 16px;
+  color: #434A54;
+  margin-right: 10px;
+}
+
+.massage-date {
+  font-size: 12px;
+  color: #999;
+}
+
+.massate-txt {
+  font-size: 14px;
+  color: #434A54;
 }
 
 .form {
   background-color: #dddddd;
+  height: 90px;
   padding: 20px 40px;
+  display: flex;
+}
+
+.form-area {
+  background-color: white;
+  display: flex;
+  width: 100%;
+}
+
+.form-text {
+  height: 50px;
+  width: 100%;
+  border: none;
+  padding-left: 10px;
+}
+
+.send {
+  height: 50px ;
+  border: none;
+  background-color: #38AEF0;
+  margin-left: 15px;
+  padding: 0 20px;
+  font-size: 16px;
+  color: white;
+}
+
+.form-image {
+  font-size:  12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
 }
