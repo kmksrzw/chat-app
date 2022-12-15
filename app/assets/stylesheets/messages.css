@@ -115,20 +115,20 @@
   display: flex;
 }
 
-.form-area {
+.form-input {
   background-color: white;
   display: flex;
   width: 100%;
 }
 
-.form-text {
+.form-message {
   height: 50px;
   width: 100%;
   border: none;
   padding-left: 10px;
 }
 
-.send {
+.form-submit {
   height: 50px ;
   border: none;
   background-color: #38AEF0;
