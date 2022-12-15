@@ -12,24 +12,8 @@
 </div>
 
 <div class = "messages">
-  <div class = "message">
-    <div class = "massage-line1">
-      <div class = "massage-name">Tom</div>
-      <div class = "massage-date">2022/12/1(thu) 20:54:30</div>
-    </div>
-    <div class = "massage-line2">
-      <div class = "massage-text">１行目のコメントです</div>
-    </div>
-  </div>
- <div class = "message">
-    <div class = "massage-line1">
-      <div class = "massage-name">Som</div>
-      <div class = "massage-date">2022/12/1(thu) 21:54:30</div>
-    </div>
-    <div class = "massage-line2">
-      <div class = "massage-text">２行目のコメントです</div>
-    </div>
-  </div>
+  <%= render partial: 'message', collection: @messages %>
+  
   
 </div>
 
